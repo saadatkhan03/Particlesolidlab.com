@@ -407,3 +407,25 @@
     });
   });
 })();
+/* ---- WeChat ID copy ---- */
+(function(){
+  var btn=document.getElementById('wechatCopy'); if(!btn) return;
+  var lbl=document.getElementById('wechatLabel');
+  var id=btn.getAttribute('data-id')||'';
+  function flash(){
+    btn.classList.add('copied');
+    if(lbl){ lbl.textContent='Copied ✓'; }
+    setTimeout(function(){ btn.classList.remove('copied'); if(lbl){ lbl.textContent=id; } },1600);
+  }
+  function fallback(){
+    var ta=document.createElement('textarea'); ta.value=id; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); }catch(e){}
+    document.body.removeChild(ta); flash();
+  }
+  btn.addEventListener('click', function(){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(id).then(flash, fallback);
+    } else { fallback(); }
+  });
+})();
