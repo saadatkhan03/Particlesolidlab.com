@@ -107,6 +107,15 @@
   .hero .thesis{font-family:var(--serif);font-weight:400;font-size:clamp(20px,2.3vw,25px);line-height:1.42;color:var(--ink);margin-top:30px;max-width:560px}
   .hero .support{color:var(--muted);font-size:16.5px;margin-top:20px;max-width:540px;border-left:2px solid var(--line-2);padding-left:18px}
   .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+  .hero-aside{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:26px;max-width:580px;padding:14px 18px;border:1px dashed var(--line-2);border-radius:12px;background:rgba(18,160,171,.035)}
+  .hero-aside .ha-ico{flex:0 0 auto;width:32px;height:32px;display:grid;place-items:center;border-radius:8px;background:#fff;border:1px solid var(--line-2);color:var(--accent)}
+  .hero-aside .ha-ico svg{width:17px;height:17px}
+  .hero-aside .ha-txt{flex:1 1 240px;display:flex;flex-direction:column;gap:2px;min-width:0}
+  .hero-aside .ha-txt b{font-size:13.5px;font-weight:700;color:var(--ink);letter-spacing:.01em}
+  .hero-aside .ha-txt span{font-size:13.5px;color:var(--muted);line-height:1.45}
+  .hero-aside .ha-link{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--accent);white-space:nowrap}
+  .hero-aside .ha-link svg{width:14px;height:14px;transition:transform .2s}
+  .hero-aside .ha-link:hover svg{transform:translateX(3px)}
   .hero-trust{display:flex;flex-wrap:wrap;gap:26px;margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}
   .hero-trust .t{display:flex;flex-direction:column;gap:2px}
   .hero-trust .t b{font-family:var(--serif);font-size:26px;font-weight:600;color:var(--ink);line-height:1}
@@ -289,6 +298,20 @@
   .cpath .cico svg{width:24px;height:24px}
   .cpath h3{font-size:23px;margin-bottom:10px}
   .cpath p{color:var(--muted);font-size:15.5px;margin-bottom:20px}
+  .cpath .cnote{display:block;margin-top:12px;font-family:var(--mono);font-size:11.5px;letter-spacing:.02em;color:var(--muted)}
+  .quickbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin:38px auto 30px;max-width:900px;padding:20px;border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,#fff,rgba(18,160,171,.04))}
+  .quickbar .qb-h{width:100%;text-align:center;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  .qbtn{display:inline-flex;align-items:center;gap:11px;padding:12px 18px;border:1px solid var(--line-2);border-radius:11px;background:#fff;font:inherit;text-align:left;cursor:pointer;transition:.2s}
+  .qbtn:hover{transform:translateY(-2px);border-color:var(--accent);box-shadow:0 8px 22px rgba(10,37,64,.07)}
+  .qbtn svg{width:22px;height:22px;flex:0 0 auto}
+  .qbtn.wa svg{color:#25D366}
+  .qbtn.wc svg{color:#07C160}
+  .qbtn.em svg{color:var(--accent)}
+  .qbtn span{display:flex;flex-direction:column;gap:1px;min-width:0}
+  .qbtn b{font-size:13px;font-weight:700;color:var(--ink);line-height:1.2}
+  .qbtn em{font-style:normal;font-family:var(--mono);font-size:12.5px;color:var(--muted);line-height:1.25}
+  .qbtn.copied{border-color:#07C160;background:rgba(7,193,96,.06)}
+  .sepnote{display:inline-block;margin:0 0 14px;padding:5px 12px;border:1px solid var(--line-2);border-radius:99px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:#fff}
   .contact-links{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
 
   /* ---------- footer ---------- */
