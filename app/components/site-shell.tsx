@@ -157,6 +157,13 @@ export function SiteFooter() {
             >
               ResearchGate ↗
             </a>
+            <a
+  href="https://www.linkedin.com/in/dr-muhammad-saadat-shakoor-khan-4a3967103/"
+  target="_blank"
+  rel="noreferrer"
+>
+  LinkedIn ↗
+</a>
           </div>
         </div>
         <div className="footer-contact">
