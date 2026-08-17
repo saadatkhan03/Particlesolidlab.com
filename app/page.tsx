@@ -206,7 +206,7 @@ export default function Home() {
               </a>
             </article>
             <article className="metric">
-              <strong>160</strong>
+              <strong>162</strong>
               <span>Citations</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
