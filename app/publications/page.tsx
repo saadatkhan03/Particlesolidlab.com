@@ -69,7 +69,7 @@ export default function PublicationsPage() {
               <span>Peer-reviewed papers</span>
             </article>
             <article className="metric">
-              <strong>162</strong>
+              <strong>133</strong>
               <span>Citations</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
@@ -80,7 +80,7 @@ export default function PublicationsPage() {
               </a>
             </article>
             <article className="metric">
-              <strong>9</strong>
+              <strong>7</strong>
               <span>h-index</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
