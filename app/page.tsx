@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CollisionCascadeAnimation } from "./components/scientific-animations";
 import { PublicationRow } from "./components/publication-row";
 import { SectionIntro } from "./components/site-shell";
-import { selectedPublications } from "./data/site-data";
+import { scholarMetrics, selectedPublications } from "./data/site-data";
 
 export const metadata: Metadata = {
   title: "Computational Particle Transport & Radiation Damage",
@@ -206,7 +206,7 @@ export default function Home() {
               </a>
             </article>
             <article className="metric">
-              <strong>162</strong>
+              <strong>{scholarMetrics.citations}</strong>
               <span>Citations</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
@@ -217,8 +217,19 @@ export default function Home() {
               </a>
             </article>
             <article className="metric">
-              <strong>9</strong>
+              <strong>{scholarMetrics.hIndex}</strong>
               <span>h-index</span>
+              <a
+                href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Scholar ↗
+              </a>
+            </article>
+            <article className="metric">
+              <strong>{scholarMetrics.i10Index}</strong>
+              <span>i10-index</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
                 target="_blank"

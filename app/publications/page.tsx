@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PublicationRow } from "../components/publication-row";
 import { PageHero, SectionIntro } from "../components/site-shell";
-import { profiles, publications } from "../data/site-data";
+import { profiles, publications, scholarMetrics } from "../data/site-data";
 
 export const metadata: Metadata = {
   title: "Publications",
@@ -69,7 +69,7 @@ export default function PublicationsPage() {
               <span>Peer-reviewed papers</span>
             </article>
             <article className="metric">
-              <strong>134</strong>
+              <strong>{scholarMetrics.citations}</strong>
               <span>Citations</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
@@ -80,8 +80,19 @@ export default function PublicationsPage() {
               </a>
             </article>
             <article className="metric">
-              <strong>7</strong>
+              <strong>{scholarMetrics.hIndex}</strong>
               <span>h-index</span>
+              <a
+                href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Verify ↗
+              </a>
+            </article>
+            <article className="metric">
+              <strong>{scholarMetrics.i10Index}</strong>
+              <span>i10-index</span>
               <a
                 href="https://scholar.google.com/citations?user=kneeK7cAAAAJ"
                 target="_blank"

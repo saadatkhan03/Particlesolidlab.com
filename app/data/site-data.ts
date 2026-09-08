@@ -141,6 +141,12 @@ export type MentoringService = {
   description: string;
 };
 
+export const scholarMetrics = {
+  citations: 134,
+  hIndex: 7,
+  i10Index: 5,
+} as const;
+
 export const nav = [
   { label: "Research", href: "/research" },
   { label: "Publications", href: "/publications" },
