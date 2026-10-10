@@ -67,7 +67,7 @@ The major scientific corrections made during the redesign were:
    not authored in this research. The site distinguishes 384 elastic-potential
    combinations, the broader 3 × 4 = 12 inelastic catalogue, and the published
    17,280-profile campaign (384 × 3 × 5 × 3).
-10. The displayed metrics were updated to 160 citations and an h-index of 9.
+10. The displayed metrics were updated to 143 citations, an h-index of 7, and an i10-index of 7.
 11. The Ningbo, Wuhan, and CD-SEM posters are all represented.
 12. The IM3D animation is restricted to the homogeneous bulk Fe–Cr campaign;
     unrelated wave-structure figures are not used there.
