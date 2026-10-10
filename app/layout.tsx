@@ -63,7 +63,7 @@ const personSchema = {
   name: "Dr. Muhammad Saadat Shakoor Khan",
   url: siteUrl,
   image: `${siteUrl}/assets/img/profile.jpg`,
-  email: "mailto:mkhan@theory.issp.ac.cn",
+  email: "mailto:mk@particlesolidlab.com",
   jobTitle: "Postdoctoral Researcher",
   affiliation: {
     "@type": "Organization",
