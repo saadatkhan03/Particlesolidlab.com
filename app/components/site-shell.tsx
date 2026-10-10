@@ -168,8 +168,8 @@ export function SiteFooter() {
         </div>
         <div className="footer-contact">
           <h2>Research contact</h2>
-          <a href="mailto:mkhan@theory.issp.ac.cn">
-            mkhan@theory.issp.ac.cn
+          <a href="mailto:mk@particlesolidlab.com">
+            mk@particlesolidlab.com
           </a>
           <span>Hefei, Anhui, China</span>
           <Link className="footer-mentoring" href="/mentoring">
