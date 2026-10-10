@@ -26,7 +26,7 @@ export function ContactForm() {
     setMessage(
       "Your email application will open with the collaboration details pre-filled. No form data is stored by this website.",
     );
-    window.location.href = `mailto:mkhan@theory.issp.ac.cn?subject=${encodeURIComponent(
+    window.location.href = `mailto:mk@particlesolidlab.com?subject=${encodeURIComponent(
       subject,
     )}&body=${encodeURIComponent(body)}`;
   }
