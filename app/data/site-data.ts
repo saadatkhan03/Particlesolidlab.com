@@ -142,9 +142,9 @@ export type MentoringService = {
 };
 
 export const scholarMetrics = {
-  citations: 134,
+  citations: 143,
   hIndex: 7,
-  i10Index: 5,
+  i10Index: 7,
 } as const;
 
 export const nav = [
@@ -1232,8 +1232,8 @@ export const contact = {
   affiliation:
     "Institute of Solid State Physics, Hefei Institutes of Physical Science, Chinese Academy of Sciences",
   location: "Hefei, China",
-  institutionalEmail: "mkhan@theory.issp.ac.cn",
-  personalEmail: "saadatkhan03@gmail.com",
+  institutionalEmail: "mk@particlesolidlab.com",
+  personalEmail: "mk@particlesolidlab.com",
   whatsappDisplay: "+86 185 5638 1675",
   whatsappHref: "https://wa.me/8618556381675",
   wechat: "saadat_khan",
